@@ -1,0 +1,171 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.jumbotron{
+    margin: 20px;
+    padding: 20px;
+    background-color:  rgba(186, 186, 238, 0.979);
+}
+#Clock{ display: flex;
+    position: relative;
+height: 400px;
+width: 400px;
+border-radius:50%;
+background-color:#FDFEFE;
+margin-top: 50px;
+margin-right: 50px;
+
+
+border-radius: 50%;
+box-shadow: 0 0 15px 3px #0d0e0e,
+            inset 0 0 10px 10px #c5c7c7;
+                                         
+
+}
+#dot{
+    position: relative;
+    left:190px;
+    top:47%;
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    z-index:10000;
+    background-color: rgb(31, 28, 28);
+}
+#hr{
+    position:relative ;
+    z-index: 1000;
+    height: 100px;
+    width: 8px;
+    border-radius: 6px 6px 0 0;
+    background-color:black;
+    left: 180px;
+    top: 24%;
+    transform-origin: bottom;
+    
+
+
+}
+#min{
+    position:relative ;
+    z-index: 2000;
+    height: 140px;
+    width: 4px;
+    border-radius: 2px 2px 0 0;
+    background-color:rgb(7, 7, 6);
+    left: 172px;
+    top: 14%;
+    transform-origin: bottom;
+}
+#ss{
+    position:relative;
+    z-index: 3000;
+    height: 190px;
+    width: 2.25px;
+    border-radius: 6px 6px 0 0;
+    background-color:orangered;
+    left: 171px;
+    top: 1%;
+    transform-origin: bottom;
+}
+#nin,#three,#twe,#six{
+    position: relative;
+    height: 3px;
+    width: 8px;
+    background-color: black;
+
+}
+#three{
+    transform: rotate(180deg);
+    top: 49%;
+    left: 340px;
+}
+#nin{
+    position: relative;
+    height: 3px;
+    width: 8px;
+    background-color: black;
+    transform: rotate(0deg);
+    top:49%;
+    left: -30px;
+
+}
+#twe{
+    transform: rotate(270deg);
+    top: 0.5%;
+    left: 165px;
+}
+#six{
+    transform: rotate(90deg);
+    top: 99%;
+    left: 150px;
+}
+#calender{
+    margin-left: 20px;;
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+   
+    height: 350px;
+    width: 400px;
+    border-radius: 0px;
+    background-color:white;
+    box-shadow: 0 4px 3px 3px black,
+               inset 0 0 3px 6px rgba(20, 1, 20, 0.301);
+    opacity: 60%;
+}
+#Month{
+        position: relative;
+        display: flex;
+        width: 400px;
+        height:100px;
+        background-color:  red;
+        color: rgb(252, 252, 252);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family:'Amaranth';
+        font-size: 50px;
+       
+}
+#Year{
+    position: relative;
+    display: flex;
+    width: 400px;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Amaranth';
+    font-size: 72px;
+    top: 3%;
+    color: rgb(7, 7, 6);
+   
+}
+#date {
+    position: relative;
+    display: flex;
+    width: 400px;
+    height:100px;
+    justify-content: center;
+    color:rgb(7, 7, 6);
+    font-size: 100px;
+ 
+    font-family:'Amaranth';
+}
+#day{
+    position: relative;
+    display: flex;
+    width: 400px;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(7, 7, 6);
+    font-size: 60px; 
+    font-family:'Amaranth';
+    top: 5%;
+
+}
+ 
