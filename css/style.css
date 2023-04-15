@@ -5,7 +5,8 @@ body{
 }
 
 .jumbotron{
-    margin: 20px;
+    text-align: center;
+        margin: 20px;
     padding: 20px;
     background-color:  rgba(186, 186, 238, 0.979);
 }
