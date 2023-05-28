@@ -4,20 +4,21 @@ body{
 
 }
 
+
 .jumbotron{
     text-align: center;
-        margin: 20px;
+    margin: 20px;
     padding: 20px;
     background-color:  rgba(186, 186, 238, 0.979);
 }
 #Clock{ display: flex;
     position: relative;
-height: 400px;
-width: 400px;
-border-radius:50%;
-background-color:#FDFEFE;
-margin-top: 50px;
-margin-right: 50px;
+    height: 400px;
+    width: 400px;
+    border-radius:50%;
+    background-color:#FDFEFE;
+    margin-top: 50px;
+    margin-right: 50px;
 
 
 border-radius: 50%;
