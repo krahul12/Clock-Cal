@@ -52,7 +52,7 @@
                 </div>
                 
                 <div class="col-sm-lg-6 offset-1">
-                    <div id="calender" class="row">
+                    <div id="calender">
                         <div class="col-12" id="Month">
                             <script>
                                 const monthNames = ["January", "February", "March", "April", "May", "June",  "July", "August", "September", "October", "November", "December"];
@@ -61,14 +61,14 @@
                                document.getElementById("Month").innerHTML=monthNames[d.getMonth()];
                             </script>
                         </div>
-                        <div id="date" class="col-12">
+                        <div id="date" >
                             <script>
                                   document.getElementById("date").innerHTML=d.getDate();
                             </script>
                             
         
                         </div>
-                        <div id="day"class="col-6">
+                        <div id="day">
                             <script>
                                 
                                 document.getElementById("day").innerHTML=day_name[d.getDay()];
@@ -76,7 +76,7 @@
                             </script>
                             
                         </div>
-                        <div id="Year" class="col-6">
+                        <div id="Year" >
                             <script>
                                 document.getElementById("Year").innerHTML=String(d.getFullYear()).slice(String(d.getFullYear()).length-2,String(d.getFullYear()).length);
 
