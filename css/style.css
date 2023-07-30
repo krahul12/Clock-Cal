@@ -109,6 +109,7 @@ box-shadow: 0 0 15px 3px #0d0e0e,
     margin-left: 20px;;
     position: relative;
     display: flex;
+    flex-direction:column;
     margin-top: 50px;
    
     height: 350px;
@@ -120,7 +121,7 @@ box-shadow: 0 0 15px 3px #0d0e0e,
     opacity: 60%;
 }
 #Month{
-        position: relative;
+        
         display: flex;
         width: 400px;
         height:100px;
@@ -134,10 +135,9 @@ box-shadow: 0 0 15px 3px #0d0e0e,
        
 }
 #Year{
-    position: relative;
+    
     display: flex;
-    width: 400px;
-    height:100px;
+    
     justify-content: center;
     align-items: center;
     font-family:'Amaranth';
@@ -147,7 +147,7 @@ box-shadow: 0 0 15px 3px #0d0e0e,
    
 }
 #date {
-    position: relative;
+    
     display: flex;
     width: 400px;
     height:100px;
@@ -158,10 +158,8 @@ box-shadow: 0 0 15px 3px #0d0e0e,
     font-family:'Amaranth';
 }
 #day{
-    position: relative;
+    
     display: flex;
-    width: 400px;
-    height:100px;
     justify-content: center;
     align-items: center;
     color:rgb(7, 7, 6);
