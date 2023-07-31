@@ -19,7 +19,7 @@
 
         </header>
         <div class="container">
-            <div class="row">
+            <div class="Frame1 row">
                 <div class="col-sm-lg-6 offset-1">
                     <div id="Clock" >
                         <div id="dot">
@@ -52,8 +52,8 @@
                 </div>
                 
                 <div class="col-sm-lg-6 offset-1">
-                    <div id="calender">
-                        <div class="col-12" id="Month">
+                    <div id="calender" >
+                        <div  id="Month">
                             <script>
                                 const monthNames = ["January", "February", "March", "April", "May", "June",  "July", "August", "September", "October", "November", "December"];
                                 const day_name=["Sun","Mon","Tue","Wed","Thr","Fri","Sat"];
@@ -68,20 +68,24 @@
                             
         
                         </div>
-                        <div id="day">
-                            <script>
+                        <div id="Part2">
+                            <div id="day">
+                                <script>
+                                    
+                                    document.getElementById("day").innerHTML=day_name[d.getDay()];
+    
+                                </script>
                                 
-                                document.getElementById("day").innerHTML=day_name[d.getDay()];
+                            </div>
+                            <div id="Year" >
+                                <script>
+                                    document.getElementById("Year").innerHTML=String(d.getFullYear()).slice(String(d.getFullYear()).length-2,String(d.getFullYear()).length);
+    
+                                </script>
+                            </div>
 
-                            </script>
-                            
                         </div>
-                        <div id="Year" >
-                            <script>
-                                document.getElementById("Year").innerHTML=String(d.getFullYear()).slice(String(d.getFullYear()).length-2,String(d.getFullYear()).length);
-
-                            </script>
-                        </div>
+                        
                         
                        
                     </div>
