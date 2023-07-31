@@ -127,6 +127,7 @@ box-shadow: 0 0 15px 3px #0d0e0e,
     display: flex;
     flex-direction: row;
     padding: 10px 10px;
+    justify-content:center;
 }
 
 #Part2{
